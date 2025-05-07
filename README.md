@@ -122,7 +122,7 @@ curl http://<alb_dns_name>
 
 **Mohit Dushyant Matte**  
 DevOps & AWS Cloud Enthusiast  
-[🔗 LinkedIn](https://www.linkedin.com/in/mohit-dushyant-matte/) • [💻 GitHub](https://github.com/yourusername)
+[🔗 LinkedIn](https://www.linkedin.com/in/mohit-matte-a6496a240/)
 
 ---
 
