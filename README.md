@@ -45,13 +45,6 @@ This project provisions a secure and scalable **AWS Virtual Private Cloud (VPC)*
 terraform-vpc-alb/
 ├── main.tf               # Terraform root module
 ├── variables.tf          # Input variables for customization
-├── outputs.tf            # Output values to display after apply
-├── vpc.tf                # VPC, subnets, IGW, NAT, routing
-├── alb.tf                # ALB, target group, listener
-├── security.tf           # Security groups for ALB & EC2
-├── terraform.tfvars      # Actual values for variables
-├── provider.tf           # AWS provider configuration
-└── README.md             # Documentation
 ```
 
 ---
