@@ -22,44 +22,40 @@ This project provisions a secure and scalable **AWS Virtual Private Cloud (VPC)*
 ---
 
 ## 🧱 Architecture Overview
-
-\`\`\`
+```
 [ Internet ]
      |
-[ Application Load Balancer ]
-     |
-+-----------------------+
-|      Public Subnets   |
-|  (EC2 Instances)      |
-+-----------------------+
-         |
-   NAT Gateway (optional)
-         |
-+-----------------------+
-|     Private Subnets   |
-|  (DB, App Tiers)      |
-+-----------------------+
-\`\`\`
+     |--> [ Application Load Balancer ]
+                 |
+        +--------+--------+
+        |                 |
+ Public Subnets     Private Subnets
+   (EC2 Instances)     (DB, App Tiers)
+        |                 |
+        +--------+--------+
+                 |
+           NAT Gateway (optional)
+```
 
 ---
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 terraform-vpc-alb/
-│
-├── main.tf             # Terraform root module
-├── variables.tf        # Input variables for customization
-├── outputs.tf          # Output values to display after apply
-├── vpc.tf              # VPC, subnets, IGW, NAT, routing
-├── alb.tf              # ALB, target group, listener
-├── security.tf         # Security groups for ALB & EC2
-├── terraform.tfvars    # Actual values for variables
-├── provider.tf         # AWS provider configuration
-└── README.md           # Documentation
-\`\`\`
+├── main.tf               # Terraform root module
+├── variables.tf          # Input variables for customization
+├── outputs.tf            # Output values to display after apply
+├── vpc.tf                # VPC, subnets, IGW, NAT, routing
+├── alb.tf                # ALB, target group, listener
+├── security.tf           # Security groups for ALB & EC2
+├── terraform.tfvars      # Actual values for variables
+├── provider.tf           # AWS provider configuration
+└── README.md             # Documentation
+```
 
 ---
+
 
 ## ⚙️ Prerequisites
 
