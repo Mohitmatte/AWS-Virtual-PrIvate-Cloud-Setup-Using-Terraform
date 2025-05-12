@@ -3,6 +3,25 @@
 This project provisions a secure and scalable **AWS Virtual Private Cloud (VPC)** using **Terraform**, along with an **Application Load Balancer (ALB)** for distributing traffic across EC2 instances. The infrastructure ensures **high availability**, **network isolation**, and is designed to be **modular and reusable** for real-world applications.
 
 ---
+## 📸 Screenshots
+
+Here are some live screenshots demonstrating the working ALB and EC2 instances receiving traffic.
+
+### 🔗 Load Balancer DNS in Browser
+![ALB DNS Test via Browser](./screenshots/Image1.png.png)
+
+---
+
+### 📊 EC2 Instances Load Distribution
+![Instances Receiving Traffic](./screenshots/image2.png)
+
+---
+
+### 💓 ALB Target Group Health Checks
+![ALB Target Group Health Checks](./screenshots/health-checks.png)
+
+
+
 
 ## 🚀 Features
 
