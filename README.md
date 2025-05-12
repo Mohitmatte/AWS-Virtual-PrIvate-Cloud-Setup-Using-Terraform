@@ -8,7 +8,7 @@ This project provisions a secure and scalable **AWS Virtual Private Cloud (VPC)*
 Here are some live screenshots demonstrating the working ALB and EC2 instances receiving traffic.
 
 ### 🔗 Load Balancer DNS in Browser
-![ALB DNS Test via Browser](./screenshots/Image1.png.png)
+![ALB DNS Test via Browser](./screenshots/Image1.png)
 
 ---
 
