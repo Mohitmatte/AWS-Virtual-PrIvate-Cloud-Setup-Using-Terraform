@@ -17,12 +17,6 @@ Here are some live screenshots demonstrating the working ALB and EC2 instances r
 
 ---
 
-### 💓 ALB Target Group Health Checks
-![ALB Target Group Health Checks](./screenshots/health-checks.png)
-
-
-
-
 ## 🚀 Features
 
 - ✅ Custom VPC with configurable CIDR block
